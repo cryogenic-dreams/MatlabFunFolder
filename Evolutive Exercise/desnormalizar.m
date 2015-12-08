@@ -1,0 +1,11 @@
+function vectorD=desnormalizar(vectorN,numero)
+vectorD=ones(1,9);
+vectorD(1)=vectorN(1);
+vectorD(2)=vectorN(2)*numero;
+vectorD(3)=vectorN(3)*numero;
+vectorD(4)=vectorN(4)*numero;
+vectorD(5)=vectorN(5)*numero;
+vectorD(6)=vectorN(6)*numero;
+vectorD(7)=vectorN(7)*numero;
+vectorD(8)=vectorN(8)*numero;
+vectorD(9)=vectorN(9)*numero;
